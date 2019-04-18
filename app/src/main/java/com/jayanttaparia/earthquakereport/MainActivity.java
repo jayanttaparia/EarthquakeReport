@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 /*
-                //self written for explicit intent
+                //for explicit intent:
                 String url = earthquakes.get(position).getmURL();
                 Intent intent = new Intent(MainActivity.this, ShowWebView.class);
                 intent.putExtra("Url",url);
